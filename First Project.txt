@@ -1,0 +1,89 @@
+Salesforce Project Automation System
+
+This project demonstrates a real-world Salesforce automation workflow built in a Trailhead Playground environment. The goal was to simulate how companies design custom CRM modules and automate business logic using Salesforce Flow Builder.
+
+📌 Project Overview
+
+A custom Project Management module was created to track company projects, budgets, and status. Automation ensures that high-budget projects are automatically activated based on predefined business rules.
+
+This mirrors how organizations enforce operational policies inside Salesforce.
+
+🧱 Features Implemented
+
+Custom Object: Project
+
+Custom Fields:
+
+Budget (Currency)
+
+Start Date (Date)
+
+Status (Picklist)
+
+Record-triggered Flow Automation
+
+Business Rule Enforcement
+
+Real-time status updates
+
+Sample project records for testing
+
+⚙️ Automation Logic
+
+Business rule implemented:
+
+If Project Budget > 10,000
+→ Automatically set Status = Active
+
+This was achieved using a Record-Triggered Flow.
+
+The automation runs whenever a project record is created or updated.
+
+🧠 Skills Demonstrated
+
+Salesforce object modeling
+
+Custom field configuration
+
+Flow Builder automation
+
+Business rule implementation
+
+Workflow testing
+
+CRM system design thinking
+
+📸 Screenshots
+Object Structure
+
+Fields Configuration
+
+Automation Flow
+
+Before Automation
+
+After Automation
+
+🎯 Real-World Application
+
+This project simulates enterprise Salesforce use cases such as:
+
+Automatic deal escalation
+
+Budget approval workflows
+
+HR process automation
+
+Financial rule enforcement
+
+The same automation pattern applies across industries.
+
+🛠 Tools Used
+
+Salesforce Lightning Experience
+
+Salesforce Flow Builder
+
+Custom Objects & Fields
+
+Trailhead Playground
